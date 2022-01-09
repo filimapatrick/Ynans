@@ -9553,7 +9553,8 @@ ________________________________ */
   bottom: -12%;
   width: 28%;
   transform: translateX(-50%);
-  z-index: -1;
+  /* z-index: -1; */
+ 
 }
 
 .welcome-image--group-01__img-4 {
@@ -12387,7 +12388,7 @@ ________________________________ */
 
 .contact-widget-box {
   padding: 30px 30px 15px;
-  background-color: #5034fc;
+  background-color: green;
   border-radius: 15px;
 }
 
