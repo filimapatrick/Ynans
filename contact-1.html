@@ -160,25 +160,26 @@
               <h2 class="section-title__heading mb-4">
                 Send A Message
               </h2>
+              <div class="alert">Your message has been sent</div>
               <p class="section-title__description">When, while lovely valley teems with vapour around meand <br class="d-none d-xs-block"/> meridian the upper impenetrable.</p>
             </div>
-            <form action="https://finestdevs.com/demos/fastland-html/" class="contact-form" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
+            <form  class="contact-form" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true" id="contactForm">
               <div class="row">
                 <div class="col-lg-6 mb-4">
                   <div class="form-floating">
-                    <input class="form-control" placeholder="Leave a comment here" id="floatinginput" />
+                    <input class="form-control" placeholder="Leave a comment here" id="floatinginput" id="email" required/>
                     <label for="floatinginput">Your Email</label>
                   </div>
                 </div>
                 <div class="col-lg-6 mb-4">
                   <div class="form-floating">
-                    <input class="form-control" placeholder="Leave a comment here" id="floatinginput2" />
+                    <input class="form-control" placeholder="Leave a comment here" id="floatinginput2" id="phone" required />
                     <label for="floatinginput2">Phone number</label>
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" style="height: 100px"></textarea>
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea3" id="message" style="height: 100px" required></textarea>
                     <label for="floatingTextarea3">Your Message Here </label>
                   </div>
                 </div>
@@ -193,7 +194,7 @@
                       </div>
                     </div>
                     <div class="col-md-4 col-lg-5 col-xl-4 text-md-end pt-3">
-                      <button class="btn btn-primary shadow--primary-4 btn--lg-2 rounded-55 text-white">Send Message</button>
+                      <button class="btn btn-primary shadow--primary-4 btn--lg-2 rounded-55 text-white" type="submit">Send Message</button>
                     </div>
                   </div>
                 </div>
@@ -337,7 +338,7 @@
                     <p class="footer-widgets__text mb-4 mt-0">Get the latest trends updates right at your inbox.</p>
                     <!-- Newsletter -->
                     <div class="newsletter newsletter--l7">
-                      <form action="https://finestdevs.com/.">
+                      <form >
                         <input type="text" placeholder="Enter Your Email">
                         <button class="btn btn-primary shadow--primary-4" type="submit">Subscribe</button>
                       </form>
@@ -372,6 +373,34 @@
   <!-- Activation Script -->
   <script src="js/menu.js"></script>
   <script src="js/custom.js"></script>
+  
+
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-analytics.js"; 
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    // const firebaseConfig = {
+    //   apiKey: "AIzaSyAO89o6_5RQVDAQy7yfwrpfWbOCwqjLrcE",
+    //   authDomain: "ynan-2d8f7.firebaseapp.com",
+    //   projectId: "ynan-2d8f7",
+    //   storageBucket: "ynan-2d8f7.appspot.com",
+    //   messagingSenderId: "583393073957",
+    //   appId: "1:583393073957:web:8a0750f45661be60b098cc",
+    //   measurementId: "G-L4EBGPCJ1F"
+    // };
+  
+    // Initialize Firebase
+  //   const app = initializeApp(firebaseConfig);
+  //   const analytics = getAnalytics(app);
+   // </script>
+
+<script src="./main.js"> </script>
 </body>
 
 

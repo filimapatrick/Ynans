@@ -310,7 +310,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 }
 
 .hover-link--readical-red:hover {
-  color: #fd346e !important;
+  color: green !important;
 }
 
 .hover-link--yellow:hover {
@@ -379,6 +379,15 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
   right: 0;
   top: 0;
   width: 8%;
+}
+
+.alert{
+  text-align: center;
+  padding:10px;
+  background:#79c879;
+  color:#fff;
+  margin-bottom:10px;
+  display:none;
 }
 
 .shadow--primary {
@@ -630,7 +639,7 @@ body[data-theme='light'] .dark-mode-texts .light-shape.default-shape, .light-mod
 .card-hover__readical-red:hover:hover {
   box-shadow: 0 8px 45px rgba(96, 1, 211, 0.25);
   border-radius: 10px;
-  background-color: #fd346e;
+  background-color: green;
 }
 
 .card-hover__readical-red:hover:hover .card--services-l6__icon {
@@ -765,7 +774,7 @@ a.hover-text--orange:hover {
 
 .hover-text--torch-red:hover,
 a.hover-text--torch-red:hover {
-  color: #ff1e38;
+  color: green;
 }
 
 .hover-text--java-2:hover,
@@ -802,7 +811,7 @@ a.hover-text--electric-violet-3:hover {
 }
 
 .card-hover-bg__readical-red:hover .card--services-l9__icon {
-  background-color: #fd346e !important;
+  background-color: green !important;
   color: #fff;
   box-shadow: -6px 8px 10px rgba(253, 52, 110, 0.25);
 }
@@ -1081,8 +1090,8 @@ button:focus {
 
 .btn-primary:hover {
   color: #000;
-  background-color: #ff7043;
-  border-color: #ff6838;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -1231,8 +1240,8 @@ button:focus {
 
 .btn-torch-red {
   color: #000;
-  background-color: #ff1e38;
-  border-color: #ff1e38;
+  background-color: green;
+  border-color: green;
 }
 
 .btn-torch-red:hover {
@@ -1264,8 +1273,8 @@ button:focus {
 
 .btn-torch-red:disabled, .btn-torch-red.disabled {
   color: #000;
-  background-color: #ff1e38;
-  border-color: #ff1e38;
+  background-color: green;
+  border-color: green;
 }
 
 .btn-purple-heart {
@@ -1315,8 +1324,8 @@ button:focus {
 
 .btn-electric-violet-2:hover {
   color: #fff;
-  background-color: #442cd6;
-  border-color: #402aca;
+  background-color: black;
+  border-color: black;
 }
 
 .btn-check:focus + .btn-electric-violet-2, .btn-electric-violet-2:focus {
@@ -1748,14 +1757,14 @@ button:focus {
 }
 
 .btn-outline-torch-red {
-  color: #ff1e38;
-  border-color: #ff1e38;
+  color: green;
+  border-color: green;
 }
 
 .btn-outline-torch-red:hover {
   color: #000;
-  background-color: #ff1e38;
-  border-color: #ff1e38;
+  background-color: green;
+  border-color: green;
 }
 
 .btn-check:focus + .btn-outline-torch-red, .btn-outline-torch-red:focus {
@@ -1765,8 +1774,8 @@ button:focus {
 .btn-check:checked + .btn-outline-torch-red,
 .btn-check:active + .btn-outline-torch-red, .btn-outline-torch-red:active, .btn-outline-torch-red.active, .btn-outline-torch-red.dropdown-toggle.show {
   color: #000;
-  background-color: #ff1e38;
-  border-color: #ff1e38;
+  background-color: green;
+  border-color: green;
 }
 
 .btn-check:checked + .btn-outline-torch-red:focus,
@@ -1775,7 +1784,7 @@ button:focus {
 }
 
 .btn-outline-torch-red:disabled, .btn-outline-torch-red.disabled {
-  color: #ff1e38;
+  color: green;
   background-color: transparent;
 }
 
@@ -5486,7 +5495,7 @@ body[data-theme="dark"] .reveal-header .nav-link-item,
   min-height: 60px;
   max-height: 60px;
   border-radius: 50%;
-  background-color: #ff1e38;
+  background-color: green;
   color: #fff;
   display: flex;
   align-items: center;
@@ -5547,7 +5556,7 @@ body[data-theme="dark"] .reveal-header .nav-link-item,
 }
 
 .widget--content-l4:hover .widget--content-l3__circle-content, .widget--content-l4.active .widget--content-l3__circle-content {
-  background-color: #ff1e38 !important;
+  background-color: green !important;
   color: #fff !important;
 }
 
@@ -6806,7 +6815,7 @@ ________________________________ */
 }
 
 .about-us-counter--l4 .counter-content__heading {
-  color: #ff1e38;
+  color: green;
   font-size: 45px;
   font-weight: 500;
   letter-spacing: normal;
@@ -8050,7 +8059,7 @@ ________________________________ */
   min-height: 60px;
   max-height: 60px;
   border-radius: 50%;
-  background-color: #ff1e38;
+  background-color: green;
   color: #fff;
   display: flex;
   align-items: center;
@@ -8111,7 +8120,7 @@ ________________________________ */
 }
 
 .widget--content-l4:hover .widget--content-l3__circle-content, .widget--content-l4.active .widget--content-l3__circle-content {
-  background-color: #ff1e38 !important;
+  background-color: green !important;
   color: #fff !important;
 }
 
