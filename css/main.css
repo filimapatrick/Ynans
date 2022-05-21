@@ -13863,7 +13863,7 @@ ________________________________ */
   position: relative;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 300px) {
   .portfolio-area--inner-1 {
     padding-bottom: 120px;
   }
